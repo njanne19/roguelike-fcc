@@ -1,0 +1,161 @@
+.cell {
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+  background-color: lightgrey !important;
+}
+.wall {
+  background-color: black !important;
+  width: 10px;
+  height: 10px;
+  display: inline-block;
+}
+#render {
+  line-height: 0;
+  margin: 5% auto auto auto;
+  width: 1000px;
+  cursor: pointer;
+}
+
+.player {
+  background-color: blue !important;
+}
+.health {
+  background-color: hotpink !important;
+}
+.drop {
+  background-color: green !important;
+}
+.title {
+  font-family: "Rock Salt", serif;
+  text-align: center;
+  font-size: 5em;
+}
+.stat {
+  font-family: "Unica One";
+  font-weight: bold;
+}
+.statNum {
+  color: red;
+}
+.statBar {
+  border-style: solid;
+  border-color: inherit;
+  border-width: 5px;
+  margin-bottom: 3%;
+  margin-top: 2%;
+}
+.foot {
+  background-color: black;
+}
+.footTitle {
+  color: white;
+  font-family:"Dancing Script", serif;
+  text-align: center;
+  font-size: 4em !important;
+}
+.icons > a {
+  color: white !important;
+  text-align: center;
+  font-size: 7em;
+}
+#footer {
+  margin-top: 2%;
+}
+.enemy {
+  background-color: red !important;
+}
+.darkToggle {
+  font-family:'Shadows Into Light', cursive;
+  text-align: right;
+  transition-duration: .2s;
+  transition-timing-function: ease-in-out;
+}
+.darkToggle:hover {
+  color: red !important;
+}
+
+.boss {
+  background-color: black !important;
+  -webkit-animation: pulsation 2s infinite;
+  -moz-animation:    pulsation 2s infinite;
+  -o-animation:      pulsation 2s infinite;
+  animation:         pulsation 2s infinite;
+}
+
+@keyframes pulsation {
+  0% {background-color: black;}
+  50% {background-color: #7c0000;}
+  100% {background-color: black;}
+}
+
+
+.ins {
+  color: black;
+}
+.modalHeader {
+  color: black;
+  text-align: center;
+  font-family: 'Walter Turncoat', cursive;
+}
+.link {
+  margin-top: 10%;
+  font-family: "Economica", serif;
+  font-size: 1.5em;
+  color: black;
+}
+.enMod {
+  font-size: 2em;
+  font-family: "Economica", serif;
+  background-color: #FF5E5E;
+  color: black;
+}
+.wepMod {
+  font-size: 2em;
+  font-family: "Economica", serif;
+  background-color: #7CFF80;
+  color: black;
+}
+.helMod {
+  font-size: 2em;
+  font-family: "Economica", serif;
+  background-color: #E984FF;
+  color: black;
+}
+.levMod {
+  font-size: 2em;
+  font-family: "Economica", serif;
+  background-color: #A674FE;
+  color: black;
+}
+.fun {
+  font-family: "Economica", serif;
+  font-size: 2em;
+  background-color: #FFF49A;
+  color: black;
+}
+.plMod {
+  font-family: "Economica", serif;
+  font-size: 2em;
+  background-color: #474FFF;
+  color: black;
+}
+.overlay {
+  height: 10px;
+  width: 10px;
+  line-height: 0;
+  display: inline-block;
+}
+.dark {
+  background-color: black !important;
+}
+#grid {
+  position: absolute;
+  margin-top: 0 !important;
+  line-height: 0;
+  width: 1000px;
+  cursor: pointer;
+}
+.on {
+  display: none !important;
+}
